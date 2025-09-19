@@ -1,0 +1,14 @@
+/Users/karenhuang/Documents/GitHub/CSharpPlayground/ConsoleAppBasic/bin/Debug/net9.0/ConsoleAppBasic
+/Users/karenhuang/Documents/GitHub/CSharpPlayground/ConsoleAppBasic/bin/Debug/net9.0/ConsoleAppBasic.deps.json
+/Users/karenhuang/Documents/GitHub/CSharpPlayground/ConsoleAppBasic/bin/Debug/net9.0/ConsoleAppBasic.runtimeconfig.json
+/Users/karenhuang/Documents/GitHub/CSharpPlayground/ConsoleAppBasic/bin/Debug/net9.0/ConsoleAppBasic.dll
+/Users/karenhuang/Documents/GitHub/CSharpPlayground/ConsoleAppBasic/bin/Debug/net9.0/ConsoleAppBasic.pdb
+/Users/karenhuang/Documents/GitHub/CSharpPlayground/ConsoleAppBasic/obj/Debug/net9.0/ConsoleAppBasic.GeneratedMSBuildEditorConfig.editorconfig
+/Users/karenhuang/Documents/GitHub/CSharpPlayground/ConsoleAppBasic/obj/Debug/net9.0/ConsoleAppBasic.AssemblyInfoInputs.cache
+/Users/karenhuang/Documents/GitHub/CSharpPlayground/ConsoleAppBasic/obj/Debug/net9.0/ConsoleAppBasic.AssemblyInfo.cs
+/Users/karenhuang/Documents/GitHub/CSharpPlayground/ConsoleAppBasic/obj/Debug/net9.0/ConsoleAppBasic.csproj.CoreCompileInputs.cache
+/Users/karenhuang/Documents/GitHub/CSharpPlayground/ConsoleAppBasic/obj/Debug/net9.0/ConsoleAppBasic.dll
+/Users/karenhuang/Documents/GitHub/CSharpPlayground/ConsoleAppBasic/obj/Debug/net9.0/refint/ConsoleAppBasic.dll
+/Users/karenhuang/Documents/GitHub/CSharpPlayground/ConsoleAppBasic/obj/Debug/net9.0/ConsoleAppBasic.pdb
+/Users/karenhuang/Documents/GitHub/CSharpPlayground/ConsoleAppBasic/obj/Debug/net9.0/ConsoleAppBasic.genruntimeconfig.cache
+/Users/karenhuang/Documents/GitHub/CSharpPlayground/ConsoleAppBasic/obj/Debug/net9.0/ref/ConsoleAppBasic.dll
