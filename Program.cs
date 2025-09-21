@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace HelloWorld
+namespace ConsoleAppBasic
 {
     class Program
     {
@@ -20,6 +20,12 @@ namespace HelloWorld
 
             // ex3: 來自 Helper.cs
             Helper.MainInHelper("Hello.");
+
+            // ex4: Customer.cs
+            var customer = new Customer();
+            var order = new Order();
+            // customer.Orders = new List<Order>(); // customer.Orders 尚未被初始化時還是null。根據職責份工原則，customer.Orders 不該在此被初始化!!
+            customer.Orders.Add(order);
             
         }
     }
