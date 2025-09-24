@@ -47,20 +47,39 @@
 ## OOP 的重點
 物件導向的核心是行為優先，內部實作隱藏，對外只暴露功能，這正是封裝的精髓。
 
+「封裝」是物件導向程式設計中的一個基本、但是重要的概念。簡單來說，就是物件的資料要被包起來，想要存取資料都必須經過固定的手續。
+
 ---
 
 ## Class 中的易混淆觀念：Field、Property、Getter/Setter、Method 的關係
 
+Property 程式碼在 Property 資料夾。
+
 ### Field
-class 內部「真實存資料的地方」，「被包起來的資料」就是欄位（Field），原則上是不應該對外開放的。要存取資料，就必須透過固定的手續：getter 與 setter（讀取式與儲存式）。所謂的屬性（Property）就是被 getter, setter 封裝起來的欄位。
+class 內部「真實存資料的地方」，「被包起來的資料」就是欄位（Field），原則上是不應該對外開放的。(但透過固定的程序就可以取用到)
 
 - 來源：https://eric-yijuin-lin.medium.com/c-%E6%AC%84%E4%BD%8D-field-%E8%88%87%E5%B1%AC%E6%80%A7-property-%E7%9A%84%E5%B7%AE%E5%88%A5-7e7fd3584b02
 
+## Property 
+property 是語法糖，透過 property 可以更有效快速的取用 field 的值。
+
 ### Property | Getter/Setter | Method
-- Getter/Setter: 目的是做資料的檢查跟存取，不做複雜的邏輯處理與運算。
+- Property: 語法糖，它包裝了 Getter 和 Setter，讓外部看起來像在存取變數，但其實背後是 method 在跑。
+- Getter/Setter: 做資料的檢查跟存取，不做複雜的邏輯處理與運算。可以被視為一種 method。
 - Method: 代表物件的行為，可以做複雜的運算或與其他物件溝通。
 
+```
+外部程式
+   │
+   ▼
+Property (中繼站，看起來像變數，但背後是 get/set 方法)
+   │
+   ▼
+Field (真正儲存資料的地方)
+```
+
 ---
+
 
 ## 0923 Modifiers 修飾詞速查表
 
