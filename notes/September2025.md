@@ -95,6 +95,27 @@ Field (真正儲存資料的地方)
 
 - 檔案/拆分修飾詞 → partial
 
+---
+
+## 0925 低耦合程式架構的特性
+
+### 基礎知識點釐清
+1. 重新釐清 type 有分 reference type 跟 value type
+2. modifiers 與 type 之間的關係
+3. 釐清原來 interface 是一種 reference type
+
+### 學習高耦合
+- Q: 什麼是高耦合？
+- A: 高耦合就是，程式碼之間有高度的依附性，範例可以查 `TightlyCoupled.cs`
+- Tightly coupled = 直接依賴具體實作 → 改一個牽動一大片。
+- Loosely coupled = 依賴抽象 (interface/抽象類別) → 彈性大、維護容易。
+
+要做出這樣的架構需要理解以下
+
+- 封裝 (Encapsulation)
+- classes 之間的關係
+- 介面 interfaces
+
 
 ---
 
